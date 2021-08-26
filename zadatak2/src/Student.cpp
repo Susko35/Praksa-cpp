@@ -12,7 +12,7 @@ Student::~Student(){}
 
 Student::Student(string name)
 {
-  sudentName = name;
+  studentName = name;
 }
        
 
