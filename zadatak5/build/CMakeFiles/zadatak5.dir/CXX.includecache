@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak5/src/main.cpp
+Student.h
+/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak5/src/Student.h
+Professor.h
+/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak5/src/Professor.h
+
