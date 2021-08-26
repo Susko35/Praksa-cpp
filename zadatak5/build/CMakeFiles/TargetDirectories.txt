@@ -1,3 +1,0 @@
-/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak5/build/CMakeFiles/rebuild_cache.dir
-/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak5/build/CMakeFiles/edit_cache.dir
-/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak5/build/CMakeFiles/zadatak5.dir

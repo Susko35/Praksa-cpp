@@ -4,6 +4,9 @@
 # VIM swap
 *.swp
 
+# CMake and  build
+*/build/
+
 # Compiled Object files
 *.slo
 *.lo
