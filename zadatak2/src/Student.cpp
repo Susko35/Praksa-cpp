@@ -3,7 +3,7 @@ using namespace std;
 
 string Student::getName()
 {
-	return studentName;
+  return studentName;
 }
 
 Student::Student(){}
@@ -12,13 +12,13 @@ Student::~Student(){}
 
 Student::Student(string name)
 {
-	studentName = name;
+  sudentName = name;
 }
        
 
-ostream& operator<<(ostream& os, Student& student){
-
-            os << "Student's name: " << student.getName() << "\n";
-            return os;
-        }
+ostream& operator<<(ostream& os, Student& student)
+{
+  os << "Student's name: " << student.getName() << "\n";
+  return os;
+}
 
