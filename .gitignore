@@ -5,7 +5,7 @@
 *.swp
 
 # CMake and  build
-*/build/
+*/build/*
 
 # Compiled Object files
 *.slo
