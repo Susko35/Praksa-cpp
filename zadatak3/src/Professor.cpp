@@ -7,7 +7,7 @@ using namespace std;
 
 string Professor::getName()
 {
-        return professorName;
+  return professorName;
 }
 
 Professor::Professor(){}
@@ -16,11 +16,12 @@ Professor::~Professor(){}
 
 Professor::Professor(string name)
 {
-	professorName = name;
+  professorName = name;
 }
 
-ostream& operator<<(ostream& os, Professor& professor){
-            os << "Professor's name: " << professor.getName() << "\n";
-            return os;
-        }
+ostream& operator<<(ostream& os, Professor& professor)ž
+{
+  os << "Professor's name: " << professor.getName() << "\n";
+  return os;
+}
 

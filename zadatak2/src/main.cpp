@@ -1,7 +1,10 @@
-using namespace std;
+#include <iostream>
+#include <cstring>
 
-#include "Student.h"
-#include "Professor.h"
+#include "Student/Student.h"
+#include "Professor/Professor.h"
+
+using namespace std;
 
 int main()
 {
