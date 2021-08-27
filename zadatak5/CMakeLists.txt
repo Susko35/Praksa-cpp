@@ -8,6 +8,6 @@ add_executable(${PROJECT_NAME}
 	src/Student.cpp 
 	)
 
-target_include_directories(${PROJECT_NAME} include)
+target_include_directories(${PROJECT_NAME} PRIVATE include)
 
 

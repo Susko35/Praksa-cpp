@@ -19,7 +19,6 @@ Student::Student(string name)
   studentName = name;
 }
        
-
 ostream& operator<<(ostream& os, Student& student)
 {
   os << "Student's name: " << student.getName() << "\n";

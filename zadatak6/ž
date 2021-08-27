@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.16.3)
+
+project(zadatak5)
+
+add_executable(${PROJECT_NAME} 
+	src/main.cpp 
+	)
+
+FIND_FILE(MYLIB libProfessor.so /lib)
+IF(NOT MYLIB)
+  MESSAGE(SEND_ERROR "Cannot find library xxxxlib.so")
+ENDIF(NOT MYLIB)
+EXEC_PROGRAM(/bin/ln ARGS "-s "${MYLIB}"
+"${CMAKE_CURRENT_BINARY_DIR}/libProfessor.so""
+  RETURN_VALUE ln_res)
+IF("${ln_retval}" GREATER 0)
+  MESSAGE(SEND_ERROR "Problem creating symlink from
+"${MYLIB}" to "${CMAKE_CURRENT_BINARY_DIR}/libProfessor.so"")
+ENDIF("${ln_retval}" GREATER 0)
+
+TARGET_LINK_LIBRARIES(exec "${CMAKE_CURRENT_BINARY_DIR}/libProfessor.so")
+
+target_include_directories(${PROJECT_NAME} PRIVATE include)
+
+

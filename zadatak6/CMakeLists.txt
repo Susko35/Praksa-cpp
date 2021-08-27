@@ -1,15 +1,18 @@
 cmake_minimum_required(VERSION 3.16.3)
 
-project(zadatak5)
+project(zadatak6)
 
-include_directories(include/Student include/Professor)
+add_executable(${PROJECT_NAME} 
+	src/main.cpp 
+	)
 
-option(BUILD_SHARED_LIBS "Build using libraries" ON)
+add_library(Professor SHARED IMPORTED)
+set_property(TARGET Professor PROPERTY IMPORTED_LOCATION /lib/libProfessor.so)
+add_library(Student SHARED IMPORTED)
+set_property(TARGET Student PROPERTY IMPORTED_LOCATION /lib/libStudent.so)
 
-configure_file(include/Professor/Professor.h include/Student/Student.h)
+target_include_directories(${PROJECT_NAME} PRIVATE include/)
 
-add_subdirectory(lib/)
+target_link_libraries(${PROJECT_NAME} Professor)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
-
-target_link_libraries(${PROJECT_NAME} PUBLIC Professor Student)
+target_link_libraries(${PROJECT_NAME} Student)
