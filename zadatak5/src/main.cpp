@@ -1,7 +1,7 @@
 using namespace std;
 
-#include "Student.h"
-#include "Professor.h"
+#include "Student/Student.h"
+#include "Professor/Professor.h"
 
 int main(){
     string name;

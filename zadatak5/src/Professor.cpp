@@ -1,5 +1,5 @@
 using namespace std;
-#include "Professor.h"
+#include "Professor/Professor.h"
 
 string Professor::getName()
 {

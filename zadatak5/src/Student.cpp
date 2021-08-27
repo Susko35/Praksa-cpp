@@ -1,5 +1,5 @@
 using namespace std;
-#include "Student.h"
+#include "Student/Student.h"
 
 string Student::getName()
 {

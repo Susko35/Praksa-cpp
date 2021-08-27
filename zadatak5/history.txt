@@ -1,0 +1,952 @@
+    1  uname
+    2  uname -r
+    3  uname -a
+    4  gcc
+    5  g++
+    6  ccmcm
+    7  cmake
+    8  clear
+    9  history
+   10  clear
+   11  makefile
+   12  java
+   13  java --version
+   14  ls
+   15  cd Projects/
+   16  ls
+   17  mkdir Atos/CppProjects
+   18  mkdir Atos/
+   19  cd Atos/
+   20  mkdir CppProjects/
+   21  ls
+   22  cd CppProjects/
+   23  mkdir First/
+   24  cd First/
+   25  git init
+   26  ls
+   27  ls -a
+   28  rm .git/
+   29  rm .git
+   30  rm .git -r
+   31  ls
+   32  git clone https://github.com/Susko35/Praksa-cpp.git
+   33  cd ../..
+   34  touch token.txt
+   35  vi token.txt 
+   36  cd Projects/
+   37  cd Atos/
+   38  ls
+   39  nano token.txt 
+   40  grep token.txt 
+   41  cat token.txt 
+   42  ls CppProjects/
+   43  cd CppProjects/First/
+   44  git clone https://github.com/Susko35/Praksa-cpp.git
+   45  ls
+   46  cd Praksa-cpp/
+   47  ls
+   48  sudo apt install g++ cmake
+   49  ls
+   50  mkdir zadatak1/
+   51  cp main.cpp zadatak1/
+   52  ls
+   53  cd zadatak1/
+   54  ls
+   55  where gcc
+   56  whereis gcc
+   57  whereis g++
+   58  whereis cmake
+   59  cmake -version
+   60  make main
+   61  ls
+   62  main
+   63  ./main 
+   64  radi
+   65  git status
+   66  cd ..
+   67  git status
+   68  cd ..
+   69  git
+   70  ls
+   71  ls -a
+   72  cd Praksa-cpp/
+   73  ls -a
+   74  git status
+   75  git add-a
+   76  git add -a
+   77  git add zadatak1/
+   78  git commit -m "Add zadatak1"
+   79  git config --global user.name "Antonio Šušnjara"
+   80  git config --global user.email  "antonio.susnjara35@gmail.com"
+   81  git commit -m "Add zadatak1"
+   82  git log
+   83  git push
+   84  git config --global credential.helper manager
+   85  ls -r
+   86  tree
+   87  mkdir zadatak2/
+   88  cp main.cpp zadatak2/
+   89  cd zadatak2
+   90  ls
+   91  mkdir build include lib src
+   92  ls
+   93  mv main.cpp src/
+   94  ls
+   95  tree
+   96  cd ../zadatak1
+   97  ls
+   98  vim main.cpp 
+   99  sudo apt install vim
+  100  whereis vim
+  101  vim main.cpp 
+  102  fg
+  103  vim main.cpp 
+  104  cd ..
+  105  fg
+  106  ls
+  107  cd zadatak2
+  108  ls
+  109  touch include/Professor/Professor.h include/Student/Student.h
+  110  mkdir include/Professor include/Student
+  111  touch include/Professor/Professor.h include/Student/Student.h
+  112  touch src/Professor.cpp src/Student.cpp
+  113  ls
+  114  vim src/main.cpp 
+  115  vim src/Student.cpp 
+  116  vim src/Professor.cpp 
+  117  vim src/main.cpp 
+  118  vim src/Student.cpp 
+  119  vim include/Professor/Professor.h 
+  120  vim src/Professor.cpp 
+  121  vim include/Professor/Professor.h 
+  122  vim src/Professor.cpp 
+  123  vim include/Professor/Professor.h 
+  124  vim src/Professor.cpp 
+  125  vim src/Student.cpp 
+  126  vim src/Professor.cpp 
+  127  vim src/Student.cpp 
+  128  vim include/Student/Student.h 
+  129  vim src/Student.cpp 
+  130  vim include/Professor/Professor.h 
+  131  vim src/Student.cpp 
+  132  vim src/Professor.cpp 
+  133  vim src/main.cpp 
+  134  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp 
+  135  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/Professor/ include/Student/
+  136  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/
+  137  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/Professor/Professor.h include/Student/Student.h 
+  138  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/Professor/ include/Student/
+  139  vim src/Professor.cpp 
+  140  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/Professor/ include/Student/
+  141  vim include/Professor/Professor.h 
+  142  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/Professor/ include/Student/
+  143  vim include/Professor/Professor.h 
+  144  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/Professor/ include/Student/
+  145  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/
+  146  g++ -c src/main.cpp src/Student.cpp src/Professor.cpp -I include/Professor/ include/Student/
+  147  g++ -c src/Professor.cpp -I include/Professor/
+  148  vim src/Professor.cpp 
+  149  g++ -c src/Professor.cpp -I include/Professor/
+  150  vim src/Professor.cpp 
+  151  g++ -c src/Professor.cpp -I include/Professor/
+  152  vim include/Professor/Professor.h 
+  153  vim src/Professor.cpp 
+  154  vim include/Professor/Professor.h 
+  155  vim src/Professor.cpp 
+  156  g++ -c src/Professor.cpp -I include/Professor/
+  157  vim src/Professor.cpp 
+  158  vim include/Professor/Professor.h 
+  159  vim src/Professor.cpp 
+  160  g++ -c src/Professor.cpp -I include/Professor/
+  161  vim src/Professor.cpp 
+  162  g++ -c src/Professor.cpp -I include/Professor/
+  163  vim include/Professor/Professor.h 
+  164  g++ -c src/Professor.cpp -I include/Professor/
+  165  g++ -c src/Professor.cpp -I include/Professor/Professor.h 
+  166  g++ -c src/Professor.cpp -I include/Professor/
+  167  vim src/Professor.cpp 
+  168  g++ -c src/Professor.cpp -I include/Professor/
+  169  vim src/Professor.cpp 
+  170  g++ -c src/Professor.cpp -I include/Professor/
+  171  vim src/Professor.cpp 
+  172  g++ -c src/Professor.cpp -I include/Professor/
+  173  vim src/Professor.cpp 
+  174  g++ -c src/Professor.cpp -I include/Professor/
+  175  vim src/Professor.cpp 
+  176  g++ -c src/Professor.cpp -I include/Professor/
+  177  vim include/Professor/Professor.h 
+  178  g++ -c src/Professor.cpp -I include/Professor/
+  179  vim include/Professor/Professor.h 
+  180  vim src/Professor.cpp 
+  181  g++ -c src/Professor.cpp -I include/Professor/
+  182  g++ -c src/Student.cpp -I include/St/
+  183  g++ -c src/Student.cpp -I include/Student/
+  184  vim src/Student.cpp 
+  185  g++ -c src/Student.cpp -I include/Student/
+  186  vim include/Student/Student.h 
+  187  fg
+  188  vim src/Student.cpp 
+  189  vim include/Student/Student.h 
+  190  g++ -c src/Student.cpp -I include/Student/
+  191  vim include/Student/Student.h 
+  192  g++ -c src/Student.cpp -I include/Student/
+  193  vim include/Student/Student.h 
+  194  g++ -c src/Student.cpp -I include/Student/
+  195  vim src/Student.cpp 
+  196  g++ -c src/Student.cpp -I include/Student/
+  197  vim src/Student.cpp 
+  198  g++ -c src/Student.cpp -I include/Student/
+  199  vim src/Student.cpp 
+  200  g++ -c src/Student.cpp -I include/Student/
+  201  vim src/Student.cpp 
+  202  g++ -c src/Student.cpp -I include/Student/
+  203  vim src/Student.cpp 
+  204  g++ -c src/Student.cpp -I include/Student/
+  205  vim src/Student.cpp 
+  206  g++ -c src/Student.cpp -I include/Student/
+  207  vim src/Student.cpp 
+  208  g++ -c src/Student.cpp -I include/Student/
+  209  vim src/Professor.cpp 
+  210  g++ -c src/Professor.cpp -I include/Professor/
+  211  vim src/Professor.cpp 
+  212  g++ -c src/Professor.cpp -I include/Professor/
+  213  g++ -c main.cpp
+  214  g++ -c src/main.cpp
+  215  g++ -c src/main.cpp -I src/
+  216  g++ -c src/main.cpp -I include/
+  217  g++ -c src/main.cpp -I include/Professor/
+  218  vim src/main.cpp 
+  219  g++ -c src/main.cpp -I include/Professor/
+  220  g++ -c src/main.cpp -I include/Professor/ -I include/Student/
+  221  ls src/
+  222  ls
+  223  g++ -o build/main.exe main.o Professor.o Student.o 
+  224  buid/main.exe
+  225  ls build/
+  226  cd build/
+  227  ./main.exe
+  228  vim include/Student/Student.h 
+  229  cd ..
+  230  vim include/Student/Student.h 
+  231  g++ -c src/Student.cpp -I include/Student/
+  232  vim include/Professor/Professor.h 
+  233  g++ -c src/Professor.cpp -I include/Professor/
+  234  g++ -o build/main.exe main.o Professor.o Student.o 
+  235  ./build/main.exe 
+  236  git status
+  237  cd ..
+  238  git status
+  239  git lof
+  240  git log
+  241  git add ./
+  242  git status
+  243  git commit -m "Add zadatak2 solution"
+  244  git log
+  245  git push
+  246  ls
+  247  mkdir zadatak3
+  248  ls
+  249  cp zadatak2/. zadatak3/
+  250  cp- a zadatak2/. zadatak3/
+  251  cp -a zadatak2/. zadatak3/
+  252  ls
+  253  cd zadatak3
+  254  lsAAA
+  255  rm -a *.o
+  256  find .
+  257  find . name "*.o"
+  258  find . -name "*.o"
+  259  find . -name "*.o" -type f
+  260  find . -name "*.o" -type f -delete
+  261  ls
+  262  g++ -c -o lib/Professor.o src/Professor.cpp -I include/Professor/
+  263  ls lib/
+  264  g++ -c -o lib/Student.o src/Student.cpp -I include/Student/
+  265  g++ -shared -o lib/libProfessor.so lib/Professor.o 
+  266  g++ -shared -o lib/libStudent.so lib/Student.o 
+  267  ls -a
+  268  ls -r
+  269  tree
+  270  rm src/Professor.cpp src/Student.cpp 
+  271  tree
+  272  g++ -L lib/ -wall
+  273  g++ build/main.exe src/main.cpp 
+  274  g++ build/main.exe src/main.cpp -L lib/
+  275  g++ -o build/main.exe src/main.cpp -L lib/
+  276  g++ -Wall -o build/main.exe src/main.cpp -l include/Professor/ -l include/Student/
+  277  g++ -L lib/ -Wall build/main.exe src/main.cpp -l include/Professor/ -l include/Student/
+  278  g++ -L lib/libProfessor.so -Wall build/main.exe src/main.cpp -l include/Professor/ -l include/Student/
+  279  g++ -L lib/libStudent.so -Wall build/main.exe src/main.cpp -l include/Professor/ -l include/Student/
+  280  g++ -L lib/ -Wall build/main.exe src/main.cpp -l include/Professor/ -l include/Student/
+  281  g++ -c -Wall -Werror -fpic src/main.cpp 
+  282  cd ..
+  283  ls
+  284  mv zadatak2/Professor.o zadatak3/
+  285  mv zadatak2/main.o zadatak3/
+  286  mv zadatak2/Student.o zadatak3/
+  287  cd zadatak3/
+  288  ls
+  289  g++ -c -Wall -Werror -fpic src/main.cpp 
+  290  cd ..
+  291  ls
+  292  cd zadatak2
+  293  ls
+  294  cd ..
+  295  cp zadatak3/{Professor.o, main.o, Student.o} zadatak2/
+  296  ls zadatak3/
+  297  cp /zadatak3/{Professor.o, main.o, Student.o} zadatak2/
+  298  cp zadatak3/Student.o zadatak2/
+  299  cp zadatak3/main.o zadatak2/
+  300  cp zadatak3/Professor.o zadatak2/
+  301  tree
+  302  cp zadatak2/src/. zadatak3/src/
+  303  cp -r zadatak2/src/. zadatak3/src/
+  304  tree
+  305  cd zadatak3/
+  306  g++ -c -Wall -Werror -fpic src/main.cpp 
+  307  rm src/Professor.cpp src/Student.cpp 
+  308  tre
+  309  tree
+  310  find . -name ".o" -type f -delete
+  311  tree
+  312  cd ..
+  313  tree
+  314  vim include/Student/Student.h 
+  315  tree
+  316  vim zadatak3/include/Student/
+  317  vim zadatak3/include/Student/Student.h
+  318  nm
+  319  nm zadatak3/src/main.cpp 
+  320  nm zadatak3/Professor.o 
+  321  whereis nm
+  322  man
+  323  man man
+  324  thanks
+  325  tree
+  326  cp zadatak2/ zadatak3/
+  327  cp -r zadatak2/ zadatak3/
+  328  tree
+  329  rm zadatak3/include/Student/Student.h.gch 
+  330  tree zadatak3/
+  331  cd zadatak3/
+  332  ls
+  333  rm Student.o Professor.o main.o 
+  334  ls
+  335  gpp 
+  336  tree
+  337  ls
+  338  tree ./..
+  339  rm -r zadatak2/
+  340  ls
+  341  tree
+  342  cd lib/
+  343  rm -a
+  344  rm -r
+  345  rm libProfessor.so libStudent.so Student.o Professor.o 
+  346  ls
+  347  cd ..
+  348  ls
+  349  tree
+  350  cp ./../zadatak2/src/ ./
+  351  cp -r ./../zadatak2/src/ ./
+  352  ls
+  353  tree
+  354  ./../zadatak2/build/./main.exe 
+  355  g++ -o lib/libProfessor.so -fpic -shared src/Professor.cpp -l include/Professor
+  356  g++ -o lib/libProfessor.so -fpic -shared src/Professor.cpp -l include/Professor/
+  357  g++ -o lib/libProfessor.so -fpic -shared src/Professor.cpp -l include/Professor/Professor.h 
+  358  g++ -o lib/libProfessor.so -fpic -shared src/Professor.cpp -l include/Professor/
+  359  g++ -o lib/libProfessor.so -fpic -shared src/Professor.cpp -L include/Professor/
+  360  g++ -o lib/libProfessor.so -fpic -shared src/Professor.cpp -I include/Professor/
+  361  tree
+  362  g++ -o lib/libStudent.so -fpic -shared src/Student.cpp -I include/Student/
+  363  file lib/libStudent.so 
+  364  tree
+  365  g++ -c src/main.cpp lib/main.o
+  366  g++ -c src/main.cpp -o lib/main.o
+  367  g++ -c src/main.cpp -o lib/main.o -I include/
+  368  g++ -c src/main.cpp -o lib/main.o -I include/Student/ -I include/Professor/
+  369  g++ -c src/main.cpp -o lib/main.o -I include/Student/ -I include/Professor/ -l lib/libProfessor.so -l lib/libStudent.so 
+  370  vim include/Professor/P
+  371  vim include/Professor/Professor.h 
+  372  g++ -c src/main.cpp -o lib/main.o -I include/Student/ -I include/Professor/ -l lib/libProfessor.so -l lib/libStudent.so 
+  373  vim include/Student/Student.h 
+  374  g++ -c src/main.cpp -o lib/main.o -I include/Student/ -I include/Professor/ -l lib/libProfessor.so -l lib/libStudent.so 
+  375  tree
+  376  vim src/Professor.cpp 
+  377  g++ -c src/main.cpp -o lib/main.o -I include/Student/ -I include/Professor/ -l lib/libProfessor.so -l lib/libStudent.so 
+  378  vim src/Student.cpp 
+  379  vim src/Professor.cpp 
+  380  g++ -o build/main.exe lib/main.o -l lib/libProfessor.so -l lib/libStudent.so -L.
+  381  g++ -o build/main.exe lib/main.o -l lib/Professor -l lib/Student -L.
+  382  g++ -o build/main.exe lib/main.o -l lib/Professor -l lib/Student -L lib/
+  383  g++ -o build/main.exe lib/main.o -l lib/Professor -l lib/Student -L lib/libProfessor.so 
+  384  g++ -o build/main.exe lib/main.o -l lib/libProfessor.so -l lib/libStudent.so -L.
+  385  g++ -o build/main.exe lib/main.o -lProfessor -l lib/libStudent.so -L.
+  386  g++ -o build/main.exe lib/main.o -L lib/ -lProfessor -lStudent
+  387  vim src/main.cpp 
+  388  ls
+  389  tree
+  390  rm -r lib/.
+  391  cd lib/
+  392  rm -a
+  393  rm -r .
+  394  rm -r 
+  395  rm libProfessor.so libStudent.so main.o 
+  396  cd ..
+  397  vim include/Professor/Professor.h 
+  398  vim -a src/
+  399  man g++
+  400  vim src/main.cpp 
+  401  ls
+  402  cd Projects/
+  403  ls
+  404  cd Atos/
+  405  ls
+  406  cd CppProjects/
+  407  ls
+  408  cd First/
+  409  ls
+  410  cd Praksa-cpp/
+  411  ls
+  412  cat README.md 
+  413  cd zadatak3/
+  414  ls
+  415  tree
+  416  cd src/
+  417  vim main.cpp 
+  418  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
+  419  exit
+  420  cd Projects/Atos/CppProjects/First/
+  421  ls
+  422  cd Praksa-cpp
+  423  ls
+  424  cd ../..
+  425  ls
+  426  cd ..
+  427  ls
+  428  cat token.txt 
+  429  cd Projects/Atos/CppProjects/
+  430  ls
+  431  cd ..
+  432  ls
+  433  cat token.txt 
+  434  history
+  435  cat token.txt 
+  436  history
+  437  cat token.txt 
+  438  history
+  439  history
+  440  haha
+  441  cd ..
+  442  cp zadatak3/ zadatak3test/
+  443  mkdir zadatak3test/
+  444  cp -a zadatak3/. zadatak3test/
+  445  cd zadatak3test/
+  446  ls
+  447  tree
+  448  vim include/Student/Student.h 
+  449  vim include/Professor/Professor.h 
+  450  cat include/Professor/Professor.h 
+  451  cat include/Student/Student.h 
+  452  vim src/Professor.cpp 
+  453  vim include/Professor/Professor.h 
+  454  vim include/Student/Student.h 
+  455  vim src/Student.cpp 
+  456  vim src/main.cpp 
+  457  g++ -o lib/libStudent.so -fpic -shared src/Student.cpp -I include/Student/Student.h 
+  458  g++ -o lib/libStudent.so -fpic -shared src/Student.cpp -I include/Student/
+  459  vim src/Student.cpp 
+  460  g++ -o lib/libStudent.so -fpic -shared src/Student.cpp -I include/Student/
+  461  g++ -o lib/libProfessor.so -fpic -shared src/Professor.cpp -I include/Professor/
+  462  g++ -c src/main.cpp -o lib/main.o 
+  463  g++ -c src/main.cpp -o lib/main.o -I include/Student/ -I include/Professor/
+  464  vim src/main.cpp 
+  465  g++ -c src/main.cpp -o lib/main.o -I include/Student/ -I include/Professor/
+  466  g++ -o build/main.exe lib/main.o -L lib/ -l Professor -l Student -I include/Student/ -I include/Professor/
+  467  tre
+  468  tree
+  469  build/main.exe 
+  470  build/main.
+  471  build/main
+  472  cd build/
+  473  main
+  474  main.exe
+  475  ./main.exe
+  476  echo $LD_LIBRARY_PATH
+  477  $LD_LIBRARY_PATH=. ./../lib/
+  478  $LD_LIBRARY_PATH= ./../lib/
+  479  LD_LIBRARY_PATH=. ./../lib/
+  480  ./main.exe
+  481  cd ..
+  482  LD_LIBRARY_PATH=. ./main
+  483  LD_LIBRARY_PATH=. ./build/main
+  484  LD_LIBRARY_PATH=. ./build/main.exe
+  485  LD_LIBRARY_PATH=
+  486  .build/main
+  487  .build/main.exe
+  488  cd build/
+  489  ./main.exe 
+  490  sudo /sbin/ldconfig -v
+  491  cd ..
+  492  LD_LIBRARY_PATH=lib/:$LD_LIBRARY_PATH
+  493  cd build
+  494  ./main.exe 
+  495  ../tree
+  496  cd .. | tree
+  497  cd .. ; tree
+  498  echo $LD_LIBRARY_PATH
+  499  ./build/./main.exe 
+  500  LD_LIBRARY_PATH=./lib/:$LD_LIBRARY_PATH;echo $LD_LIBRARY_PATH
+  501  LD_LIBRARY_PATH=./lib/;echo $LD_LIBRARY_PATH
+  502  ./build/./main.exe 
+  503  readlink -f
+  504  readlink -f lib/
+  505  LD_LIBRARY_PATH=/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak3test/lib;echo $LD_LIBRARY_PATH
+  506  ./build/./main.exe 
+  507  export LD_LIBRARY_PATH $ ./build/./main.exe
+  508  export LD_LIBRARY_PATH
+  509  ./build/./main.exe 
+  510  cd .
+  511  c
+  512  cd ..
+  513  cd zadatak3
+  514  ls
+  515  export LD_LIBRARY_PATH = lib/
+  516  LD_LIBRARY_PATH=/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak3/lib;echo $LD_LIBRARY_PATH
+  517  export LD_LIBRARY_PATH
+  518  ./build/./main.exe 
+  519  ./build/./main
+  520  ls
+  521  tree
+  522  jooooj
+  523  cd ..
+  524  ls
+  525  cd zadatak5
+  526  ls
+  527  vim CMakeLists.txt 
+  528  cmake -S src/main.cpp -B build/
+  529  cmake -S src/ -B build/
+  530  cmake -S . -B build/
+  531  cd build/
+  532  make
+  533  git status
+  534  cd ../..
+  535  git status 
+  536  git add zadatak3test/
+  537  git status
+  538  git add zadatak5/
+  539  git status
+  540  git diff
+  541  git commit -m "Add zadatak3 alternativno rijesenje"
+  542  git push
+  543  git lgo
+  544  git log
+  545  mkdir zadatak5test
+  546  cp -a zadatak5/ zadatak5test/
+  547  ls
+  548  cd zadatak5test/
+  549  ls
+  550  tree -L 3
+  551  rmdir zadatak5/
+  552  rm -a -r zadatak5/
+  553  rm -rfv zadatak5/
+  554  ls
+  555  cd ..
+  556  cp -a zadatak5/. zadatak5test/
+  557  ls
+  558  cd zadatak5test/
+  559  ls
+  560  rm -rfv build/
+  561  tree
+  562  vim include/Professor/Professor.h 
+  563  vim include/Student/Student.h 
+  564  vim src/Professor.cpp 
+  565  vim src/Student.cpp 
+  566  vim src/main.cpp 
+  567  cmake -S . -B build/
+  568  cd build/
+  569  make
+  570  ls
+  571  ./zadatak5
+  572  cd ..
+  573  cd..
+  574  cd ..
+  575  ls
+  576  git status
+  577  git add .
+  578  git status
+  579  git commit -m "Add zadatak5test alternativno rijesenje, radi kad nema ostream& operator<<"
+  580  git push
+  581  git log
+  582  ls
+  583  vim README.md 
+  584  ls
+  585  vim README.md 
+  586  ls
+  587  cd zadatak4
+  588  ls
+  589  cd ..
+  590  shutdown
+  591  cd Projects/Atos/CppProjects/First/Praksa-cpp/
+  592  cd zadatak1/
+  593  vim main.cpp 
+  594  cd ..
+  595  cd zadatak2/
+  596  ls
+  597  vim include/Student/Student.h
+  598  vim include/Professor/Professor.h 
+  599  vim src/Professor.cpp 
+  600  g++ -o Professor.o -c src/Professor.cpp -I include/Professor/Professor.h 
+  601  g++ -o Professor.o -c src/Professor.cpp -I include/Professor/
+  602  vim src/Professor.cpp 
+  603  g++ -o Professor.o -c src/Professor.cpp -I include/Professor/
+  604  vim src/Professor.cpp 
+  605  g++ -o Professor.o -c src/Professor.cpp -I include/Professor/
+  606  vim include/Student/Student.h
+  607  vim include/Professor/Professor.h 
+  608  vim include/Student/Student.h
+  609  vim src/Professor.cpp 
+  610  vim src/Student.cpp 
+  611  vim src/Professor.cpp 
+  612  vim src/main.cpp 
+  613  cd ..
+  614  cd zadatak1
+  615  ls
+  616  vim main.cpp 
+  617  ls
+  618  shutdown
+  619  shutdown -c
+  620  cd ..
+  621  git status
+  622  git add .
+  623  git status
+  624  git commit -m "Refactor code in zadatak1 and zadatak2"
+  625  git statis
+  626  git status
+  627  git log
+  628  git push
+  629  git log
+  630  cd zadatak5
+  631  ls
+  632  tree -L 3
+  633  cd build/
+  634  make
+  635  cd ..
+  636  vim include/Student/Student.h 
+  637  vim include/Professor/Professor.h 
+  638  vim include/Student/Student.h 
+  639  cd ..
+  640  cmake -S . -B build/
+  641  cd zadatak5
+  642  ls
+  643  cmake -S . -B build/
+  644  cd build/
+  645  make
+  646  ./zadatak5 
+  647  cd ../..
+  648  ls
+  649  cd zadatak3
+  650  ls
+  651  cd build/
+  652  ls
+  653  cd ..
+  654  tree
+  655  vim include/Student/S
+  656  vim include/Student/Student.h 
+  657  vim include/Professor/Professor.h 
+  658  rpath
+  659  echo rpath
+  660  echo &rpath
+  661  echo $rpath
+  662  echo $LD_LIBRARY_PATH
+  663  tree
+  664  vim src/Professor.cpp 
+  665  g++ -c -o lib/Professor.o src/Professor.cpp 
+  666  g++ -c -o lib/Professor.o src/Professor.cpp -I include/Professor/
+  667  g++ -c -o lib/Student.o src/Student.cpp -I include/Student/
+  668  g++ -shared -fpic -o lib/libProfessor.so lib/Professor.o 
+  669  g++ -shared -fpic -o lib/libStudent.so lib/Student.o 
+  670  g++ -o build/zadatak3.exe -Wall -I include/Student/ -I include/Professor/ -L lib/ -l Professor -l Student
+  671  g++ -o build/zadatak3 -c lib/main.o -Wall -I include/Student/ -I include/Professor/ -L lib/ -l Professor -l Student
+  672  g++ -o build/zadatak3 -c src/main.cpp -Wall -I include/Student/ -I include/Professor/ -L lib/ -l Professor -l Student
+  673  ls build/
+  674  cd build/
+  675  ./zadatak3
+  676  ls -a
+  677  ll
+  678  char
+  679  cd ..
+  680  g++ -o build/zadatak3.exe -c src/main.cpp -Wall -I include/Student/ -I include/Professor/ -L lib/ -l Professor -l Student
+  681  cd build/
+  682  ls
+  683  ll
+  684  rm zadatak3 zadatak3.exe 
+  685  ls
+  686  cd ..
+  687  g++ build/zadatak3.exe -c src/main.cpp -Wall -I include/Student/ -I include/Professor/ -L lib/ -l Professor -l Student
+  688  g++ build/zadatak3.exe src/main.cpp -Wall -I include/Student/ -I include/Professor/ -L lib/ -l Professor -l Student
+  689  g++ -o build/zadatak3.exe src/main.cpp -Wall -I include/Student/ -I include/Professor/ -L lib/ -l Professor -l Student
+  690  ls build/
+  691  cd build/
+  692  ./zadatak3.exe 
+  693  whereami
+  694  pwd
+  695  cd ..
+  696  cc
+  697  cd lib/
+  698  pwd
+  699  export LD_LIBRARY_PATH=/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak3/lib
+  700  cd ../build/
+  701  ./zadatak3.exe 
+  702  cd ..
+  703  git status
+  704  git add .
+  705  git status
+  706  git commit -m "Fix zadatak3 and zadatak5 functioning now"
+  707  git push
+  708  cd Projects/Atos/CppProjects/First/
+  709  ls
+  710  cd ..
+  711  ls
+  712  cd ..
+  713  ls
+  714  cat token.txt 
+  715  history
+  716  cd Projects/Atos/CppProjects/First/Praksa-cpp/zadatak1/
+  717  touch README.md
+  718  vim README.md
+  719  ls
+  720  g++ -o main.exe main.cpp
+  721  ./main.exe 
+  722  git add .
+  723  git status
+  724  git commit -m "Add zadatak1 readme"
+  725  git push
+  726  cd ../zadatak2/
+  727  cp ../zadatak1/README.md .
+  728  ls
+  729  vim README.md 
+  730  g++ -o lib/Professor.o src/Professor.cpp
+  731  g++ -o lib/Professor.o src/Professor.cpp -I include/Professor/
+  732  g++ -o Professor.o src/Professor.cpp -I include/Professor/
+  733  g++ -c lib/Professor.o src/Professor.cpp -I include/Professor/
+  734  g++ -o lib/Professor.o -c src/Professor.cpp -I include/Professor/
+  735  tree
+  736  g++ -o lib/Professor.o -c src/Professor.cpp -I include/Professor/
+  737  vim README.md 
+  738  g++ -o lib/Professor.o -c src/Professor.cpp -I include/Student/
+  739  g++ -o lib/Student.o -c src/Student.cpp -I include/Student/
+  740  vim src/Student.cpp 
+  741  g++ -o lib/Student.o -c src/Student.cpp -I include/Student/
+  742  g++ -o lib/main.o -c src/main.cpp -I include/Student/ -I include/Professor/
+  743  g++ -o build/zadatak2 lib/main.o lib/Professor.o lib/Student.o  -I include/Student/ -I include/Professor/
+  744  cd build/
+  745  ls
+  746  ./zadatak2 
+  747  fg
+  748  git status
+  749  git add ..
+  750  git status
+  751  git unstage ../src/
+  752  git reset
+  753  git add ../README.md 
+  754  git status
+  755  git commit -m "Add zadatak2 readme"
+  756  git add ..
+  757  git status
+  758  git commit -m "Fix error"
+  759  git log
+  760  git push
+  761  cd ..
+  762  vim README.md 
+  763  git add .
+  764  git status
+  765  git commit -m "Fix readme newline"
+  766  git push
+  767  cd ..
+  768  ls
+  769  cd zadatak5
+  770  ls
+  771  cd build/
+  772  ls
+  773  ./zadatak5 
+  774  cd ..
+  775  vim CMakeLists.txt 
+  776  cd ..
+  777  mkdir zadatak6/
+  778  ls zadatak3
+  779  ls zadatak3/lib/
+  780  cp -a zadatak3/. zadatak6/
+  781  tree -L 4
+  782  cd zadatak6
+  783  ls
+  784  rm build/zadatak3.exe 
+  785  touch CMakeLists.txt
+  786  vim CMakeLists.txt
+  787  cp ../zadatak5/CMakeLists.txt .
+  788  ls
+  789  vim CMakeLists.txt
+  790  tree -L5
+  791  tree -L 5
+  792  rm lib/main.o lib/Professor.o lib/Student.o 
+  793  tree
+  794  fg
+  795  cmake -S. -B build/
+  796  vim CMakeLists.txt
+  797  cd lib/
+  798  touch CMakeLists.txt ; vim CMakeLists.txt
+  799  cd ..
+  800  cmake -S. -B build/
+  801  code .
+  802  rm src/Professor.cpp src/Student.cpp 
+  803  tree
+  804  cd ..
+  805  git status
+  806  cd ..
+  807  mkdir Praksa-GitLab
+  808  ls
+  809  cd Praksa-GitLab/
+  810  git clone https://gitlab.com/antonio.susnjara35/Praksa-cpp.git
+  811  ls
+  812  cd Praksa-cpp/
+  813  ls
+  814  cp ../../First/Praksa-cpp/zadatak6 .
+  815  ls
+  816  cp -a ../../First/Praksa-cpp/zadatak6 .
+  817  ls
+  818  cd zadatak6/
+  819  tree -L3
+  820  tree - L 3
+  821  tree -L 3
+  822  git status
+  823  git add .
+  824  git status
+  825  git commit -m "Add initial zadatak6"
+  826  git log
+  827  git push
+  828  tree -L 3
+  829  rm lib/CMakeLists.txt 
+  830  vim CMakeLists.txt 
+  831  cmake -S . -B build/
+  832  rmdir -a build/
+  833  rm -a build/.
+  834  rm -rfv build/.
+  835  rm -rfv build/
+  836  ls
+  837  cmake -S . -B build/
+  838  cd build/
+  839  ls
+  840  make
+  841  ls
+  842  cd ..
+  843  vim CMakeLists.txt 
+  844  cmake -S . -B build/
+  845  cd build/
+  846  make
+  847  cd ..
+  848  vim CMakeLists.txt 
+  849  vim CMakeLists.txt ž
+  850  cmake -S . -B build/
+  851  vim CMakeLists.txt 
+  852  cmake -S . -B build/
+  853  cd build/
+  854  make
+  855  cd ..
+  856  tree
+  857  vim CMakeLists.txt 
+  858  cmake -S . -B build/
+  859  cd build/
+  860  make
+  861  cd ..
+  862  vim CMakeLists.txt 
+  863  make -verbose
+  864  make -verbose=1
+  865  make VERBOSE=1
+  866  cd ..
+  867  ls zadatak2
+  868  tree
+  869  cd zadatak2
+  870  tree
+  871  vim src/Professor.cpp include/Professor/Professor.h 
+  872  tree
+  873  g++ -o build/Student.o -c src/Student.cpp -I include/Student/Student.h 
+  874  g++ -o build/Student.o -c src/Student.cpp -I include/Student/
+  875  mkdir build
+  876  g++ -o build/Student.o -c src/Student.cpp -I include/Student/
+  877  tree
+  878  g++ -o build/Professor.o -c src/Professor.cpp -I include/Professor/
+  879  g++ -o build/main src/main.cpp build/Student.o build/Professor.o -I include/Professor/ -I include/Student/
+  880  cd build/
+  881  ./main 
+  882  cd ..
+  883  vim src/main.cpp 
+  884  tree
+  885  vim src/main.cpp 
+  886  vim src/P
+  887  vim src/Professor.cpp 
+  888  vim src/Student.cpp 
+  889  g++ -o build/zadatak2 src/*.cpp -I include/
+  890  cd build/
+  891  ./zadatak2 
+  892  ds
+  893  cd ../..
+  894  ls
+  895  cd zadatak3
+  896  tree
+  897  cd ../../
+  898  dc ..
+  899  ls
+  900  cd ..
+  901  ls
+  902  cd First/
+  903  cd Praksa-cpp/
+  904  ls
+  905  cd zadatak3
+  906  tree
+  907  code .
+  908  g++ -o build/zadatak3 src/main.cpp -I include/ -L lib/ -l Professor -l Student 
+  909  g++ -o lib/libProfessor.so src/Professor.cpp -I include/ -fpic -shared
+  910  g++ -o build/zadatak3 src/main.cpp -I include/ -L lib/ -l Professor -l Student 
+  911  g++ -o lib/libProfessor.so src/Professor.cpp -I include/ -fpic -shared 
+  912  g++ -fPIC -shared -o lib/libProfessor.so src/Professor.cpp -I include/
+  913  tree
+  914  rm build/zadatak3.exe 
+  915  g++ -fPIC -shared -o lib/libProfessor.so src/Professor.cpp -I include/
+  916  g++ -fPIC -shared -o lib/libStudent.so src/Student.cpp -I include/
+  917  g++ -o build/zadatak3 src/main.cpp -I include/ -L lib/ -l Professor -l Student 
+  918  cd build/
+  919  ./zadatak3 
+  920  export LD_LIBRARY_PATH = $LD_LIBRARY_PATH :`pwd`../lib/
+  921  export LD_LIBRARY_PATH = $LD_LIBRARY_PATH :`pwd`/../lib/
+  922  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH :`pwd/../lib/`
+  923  cd ../lib && export LD_LIBRARY_PATH=$LD_LIBRARY_PATH :`pwd`
+  924  cd ../lib/ && export LD_LIBRARY_PATH=$LD_LIBRARY_PATH :`pwd`
+  925  ls
+  926  pwd
+  927  export LD_LIBRARY_PATH = $LD_LIBRARY_PATH :/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak3/lib
+  928  export LD_LIBRARY_PATH=$LD_LIBRARY_PATHž:/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak3/lib
+  929  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/antonio/Projects/Atos/CppProjects/First/Praksa-cpp/zadatak3/lib
+  930  cd ..
+  931  cd build/
+  932  ./zadatak3 
+  933  cd ..
+  934  cd zadatak4/
+  935  ls
+  936  tree -L 3
+  937  vim CMakeLists.txt 
+  938  cmake -S . -B build/
+  939  cd build/
+  940  make
+  941  ls
+  942  ./zadatak4 
+  943  vim Makefile 
+  944  cd ../..
+  945  cd zadatak5
+  946  ls
+  947  vim CMakeLists.txt 
+  948  code .
+  949  cmake -S . -B build/
+  950  vim CMakeLists.txt 
+  951  history
+  952  history > history.txt

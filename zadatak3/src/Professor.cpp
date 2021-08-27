@@ -1,5 +1,9 @@
+#include <iostream>
+#include <cstring>
+
+#include "Professor/Professor.h"
+
 using namespace std;
-#include "Professor.h"
 
 string Professor::getName()
 {
