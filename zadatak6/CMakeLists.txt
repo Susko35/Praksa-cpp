@@ -6,13 +6,14 @@ add_executable(${PROJECT_NAME}
 	src/main.cpp 
 	)
 
+set(IMPORT_DIR ${CMAKE_SOURCE_DIR}/lib)
+
 add_library(Professor SHARED IMPORTED)
-set_property(TARGET Professor PROPERTY IMPORTED_LOCATION /lib/libProfessor.so)
+set_target_properties(Professor PROPERTIES IMPORTED_LOCATION ${IMPORT_DIR}/libProfessor.so)
 add_library(Student SHARED IMPORTED)
-set_property(TARGET Student PROPERTY IMPORTED_LOCATION /lib/libStudent.so)
+set_target_properties(Student PROPERTIES IMPORTED_LOCATION ${IMPORT_DIR}/libStudent.so)
 
 target_include_directories(${PROJECT_NAME} PRIVATE include/)
 
-target_link_libraries(${PROJECT_NAME} Professor)
+target_link_libraries(${PROJECT_NAME} Professor Student)
 
-target_link_libraries(${PROJECT_NAME} Student)
